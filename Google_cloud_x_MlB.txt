@@ -1,0 +1,100 @@
+->fork my respository from this link-https://github.com/Anvit2512/google-cloud-mlb-hackathon
+
+->learn about websocket lister sources-https://www.youtube.com/watch?v=favi7avxIag
+                                      -https://www.youtube.com/watch?v=CzcfeL7ymbU
+
+->jypter is not allowed in this hackathon, only colab. For the API calling the reference codes are given here- 
+              https://colab.research.google.com/drive/1QcZD-_VK-Fa9ZC_iNy6Cth0n67KF2dSC?usp=sharing#scrollTo=Jp9Be7Yq4GVK
+
+->backend we will be using Django
+
+->Only Google products allowed to use. For learning this the resources are given here- https://next2025challenge.devpost.com/resources
+
+->Google Cloud AI Services: Participants are required to use Google Cloud AI services for any generative AI functionality within their projects. This includes, but is not limited to:
+           #Gemini: For multimodal input and output, text generation, and conversational AI.
+           #Gemini API and AI Studio: For accessing and experimenting with various generative AI models.
+           #Vertex AI: For building, deploying, and managing machine learning models.
+           #Imagen: For image generation and manipulation.
+
+->Challenge 2: Personalized Fan Highlights: Build a system that allows fans to select team(s), player(s), etc. to follow and create audio, video, and/or text digests that fans could 
+               receive on a regular cadence to stay up on the latest highlights and commentary. Ensure your solution supports fans who speak English, Spanish, and Japanese.
+               
+                Example Workflow
+
+                A fan selects their favorite team (e.g., Barcelona) and player (e.g., Lionel Messi).
+                The system gathers:
+                      Match stats, video clips, and commentary related to Barcelona and Messi.
+                A digest is created:
+                      Video: A highlight reel of Messi’s goals and Barcelona’s key moments.
+                      Audio: A podcast summarizing the game in Spanish.
+                      Text: A written summary of the match emailed to the fan in Japanese.
+                The digest is delivered to the fan daily.
+
+->Challenge 3: Real-Time “Tool Tips”: Build a model and showcase its use in an interactive application that provides real-time insights into baseball strategy for casual viewers, explaining
+               the tactics behind each play as the game unfolds.
+
+               Example Workflow
+
+               During the Game:
+
+                     A batter hits a sacrifice fly.
+                     The system recognizes the play via a live data feed and/or video analysis.
+               Tooltip Generation:
+
+                     The system determines the strategic reason for the play (e.g., sacrificing an out to score a run).
+                     A tooltip is generated: "The batter hit a sacrifice fly to allow the runner on third base to score, adding a crucial run to their lead."
+               Display:
+
+                     The tooltip appears on-screen or in a mobile app in real-time.
+                     Viewers can click the tooltip for more detailed insights.
+               Post-Play Exploration:
+
+                     Fans can pause the game, replay the play, and access in-depth analysis of the strategy.
+ 
+->Challenge 4: Generate Statcast Data from Old Videos: Create a tool that extracts fundamental Statcast metrics (e.g., pitch speed, exit velocity) from archival 
+               game videos using computer vision. 
+              
+               Example Workflow
+
+               Input:
+                    Archival video of a game, provided in standard formats (e.g., MP4).
+               Processing:
+                    Detect and track the baseball, bat, and players frame by frame.
+                    Estimate metrics using the tracked data and known field dimensions.
+               Output:
+                    A dataset with metrics like:
+                    Pitch speed: 95 mph.
+                    Exit velocity: 105 mph.
+                    Launch angle: 25°.
+                    Player positioning: Coordinates over time.
+               Visualization:
+                    Overlay the extracted metrics on the original video or provide them in a table/chart format for further analysis.
+
+->Challenge 5: Prospect Prediction: Build a platform predicting a prospect’s MLB™ potential, projecting career impact based on current performance and historical
+               comparisons. 
+
+               Example Workflow
+
+               Input:
+                    Prospect’s minor league stats:
+                    Batting average: .290
+                    Home runs: 20
+                    Strikeout rate: 18%
+                    Age: 20
+               Historical Comparison:
+                    The system identifies 10 similar players from historical data, including one who became an MLB™ All-Star and two who were regular starters.
+               Prediction:
+                    MLB™ Debut Probability: 85%
+                    Projected Career WAR: 25 (above average).
+                    Role Projection: Likely to be a starting player with a potential All-Star ceiling.
+               Output:
+                    Visualization:
+                        Career trajectory graph.
+                        Comparison chart showing similarity scores with historical players.
+                    Recommendations for improvement (e.g., "Improve plate discipline to increase on-base percentage.").
+
+->Wild Card Challenge 1: Come up with your own MLB™ fan engagement project!
+                         Use any of the data sets provided, public datasets, and Google Cloud AI tools to build a project for baseball fans. What will you dream 
+                         up to next-level the MLB™ fan experience with Google Cloud? 
+
+                         Advantage:We can come with our own idea, design. 
